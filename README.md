@@ -28,7 +28,7 @@ Now you will have full functionality. This also Works on your phone. Instead of 
 1. [Introduction](#introduction)
 2. [Preface](#preface)
 3. [Installation](#installation)
-4. [Common Issues](#Common-Issues)
+4. [Common Issues](#common-Issues)
 
 
 
