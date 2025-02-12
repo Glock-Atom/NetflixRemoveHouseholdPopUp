@@ -14,8 +14,9 @@ account" Popup in Netflix.
 
 ## Preface
 
-Although this Script removes the Popup, it will limit the full functionality of Netflix. See [Common Issues](##common-issues).\
-To use the functionality, do the disconnecting from the internet trick.\
+Although this Script removes the Popup, it will limit the full functionality of Netflix. See [Common Issues](##common-issues).
+
+To use the functionality, do the disconnecting from the internet trick.
 1. **Open the Video**
 2. **Disconnect from the WiFi or unplug your Ethernet cable right before you get the Popup (the video should be played for almost 1 second)**
 3. **Your video will continue to play connect back to Wifi or plug your Ethernet cable back in**
@@ -28,7 +29,7 @@ Now you will have full functionality. This also Works on your phone. Instead of 
 1. [Introduction](#introduction)
 2. [Preface](#preface)
 3. [Installation](#installation)
-4. [Common Issues](#Common-Issues)
+4. [Common Issues](#common-issues)
 
 
 
