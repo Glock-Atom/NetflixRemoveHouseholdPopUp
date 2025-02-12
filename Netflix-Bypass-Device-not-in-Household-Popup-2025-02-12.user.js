@@ -11,7 +11,7 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     const removeClassFromElements = (className) => {
@@ -43,5 +43,57 @@
         addControlsToVideos();
     });
 
-    observer.observe(document.body, { childList: true, subtree: true });
+    let hasIgnoredUpdate = false;
+    const updateCheck = true;
+
+    if(updateCheck) checkForUpdate();
+
+    function checkForUpdate() {
+
+        if (!(window.location.href.includes("netflix.com"))) {
+            return;
+        }
+
+        if (hasIgnoredUpdate) {
+            return;
+        }
+
+        const scriptUrl = 'https://github.com/Glock-Atom/NetflixRemoveHouseholdPopUp/releases/download/1.0/Netflix-Bypass-Device-not-in-Household-Popup-2025-02-12.user.js';
+
+        fetch(scriptUrl)
+            .then(response => response.text())
+            .then(data => {
+                // Extract version from the script on GitHub
+                const match = data.match(/@version\s+(\d+\.\d+)/);
+                if (match) {
+                    const githubVersion = parseFloat(match[1]);
+                    const currentVersion = parseFloat(GM_info.script.version);
+
+                    if (githubVersion > currentVersion) {
+                        console.log('A new version is available. Please update your script.');
+
+                        var result = window.confirm("A new version is available. Please update your script.");
+
+                        if (result) {
+                            window.location.replace(scriptUrl);
+                        }
+
+                    } else {
+                        console.log('You have the latest version of the script.');
+                    }
+                } else {
+                    console.error('Unable to extract version from the GitHub script.');
+                }
+            })
+            .catch(error => {
+                hasIgnoredUpdate = true;
+                console.error('Error checking for updates:', error);
+            });
+        hasIgnoredUpdate = true;
+    }
+
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
 })();
