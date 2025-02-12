@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Netflix-Bypass-Device-not-in-Household-Popup
 // @namespace    http://tampermonkey.net/
-// @version      2025-02-12
+// @version      2.0
 // @description  Removes Netflix Device not in Household Popup
 // @author       Glock A.
 // @match        https://www.netflix.com/*
