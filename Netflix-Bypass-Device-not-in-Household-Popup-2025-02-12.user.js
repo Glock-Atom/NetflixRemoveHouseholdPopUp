@@ -39,7 +39,7 @@
         // Hide and clear elements
         hideAndClearElements(".e1qcljkj0");
 
-        // Add controls to videos
+        // Add controls to videos because Netflix controls wont be visible
         addControlsToVideos();
     });
 
