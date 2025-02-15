@@ -50,8 +50,4 @@ This method also works on your phone. Instead of turning off your WiFi, enable f
 
 ## Suggestions/Bug Reports
 
-If you have any suggestions or encounter any issues, feel free to create issues or pull requests on the [GitHub repository](https://github.com/Glock-Atom/NetflixRemoveHouseholdPopUp).  
-
----
-
-**Improve the Readme**: If you have suggestions to improve this README, feel free to contribute by creating a pull request or opening an issue on the GitHub repository. Your feedback is highly appreciated!
+If you have any suggestions or encounter any issues, feel free to create issues or pull requests on the [GitHub repository](https://github.com/Glock-Atom/NetflixRemoveHouseholdPopUp).
