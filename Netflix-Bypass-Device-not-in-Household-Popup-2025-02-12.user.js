@@ -33,10 +33,11 @@
         document.querySelectorAll('video').forEach(video => video.setAttribute("controls", ""));
     };
 
+
     let observer = new MutationObserver(() => {
         // Remove specified classes
         removeClassFromElements("default-ltr-cache-1hm8q18");
-        removeClassFromElements("nf-modal");
+        removeClassFromElements("nf-modal");;
 
         // Hide and clear elements
         hideAndClearElements(".e1qcljkj0");
@@ -91,7 +92,6 @@
                 hasIgnoredUpdate = true;
                 console.error('Error checking for updates:', error);
             });
-        hasIgnoredUpdate = true;
     }
 
     observer.observe(document.body, {
