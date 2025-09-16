@@ -61,7 +61,7 @@
             return;
         }
 
-        const scriptUrl = 'https://github.com/Glock-Atom/NetflixRemoveHouseholdPopUp/releases/download/1.0/Netflix-Bypass-Device-not-in-Household-Popup-2025-02-12.user.js';
+        const scriptUrl = 'https://raw.githubusercontent.com/Glock-Atom/NetflixRemoveHouseholdPopUp/main/Netflix-Bypass-Device-not-in-Household-Popup-2025-02-12.user.js';
 
         fetch(scriptUrl)
             .then(response => response.text())
