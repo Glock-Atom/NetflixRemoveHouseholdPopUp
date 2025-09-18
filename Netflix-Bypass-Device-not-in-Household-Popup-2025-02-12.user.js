@@ -4,9 +4,7 @@
 // @version      2.1
 // @description  Removes Netflix Device not in Household Popup
 // @author       Glock A.
-// @match        https://www.netflix.com/browse/*
-// @match        https://www.netflix.com/latest/*
-// @match        https://www.netflix.com/watch/*
+// @match        https://www.netflix.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=netflix.com
 // @updateURL    https://github.com/Glock-Atom/NetflixRemoveHouseholdPopUp/blob/main/Netflix-Bypass-Device-not-in-Household-Popup-2025-02-12.user.js
 // @downloadURL  https://github.com/Glock-Atom/NetflixRemoveHouseholdPopUp/blob/main/Netflix-Bypass-Device-not-in-Household-Popup-2025-02-12.user.js
